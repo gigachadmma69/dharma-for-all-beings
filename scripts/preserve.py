@@ -3,7 +3,7 @@ import argparse, hashlib, json, pathlib, re, subprocess, sys, tempfile, zipfile
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-FILES = ['archive.json','media.json','LICENSE','RIGHTS.md','README.md','CONTINUITY.md',
+FILES = ['archive.json','media.json','reserve.json','LICENSE','RIGHTS.md','README.md','CONTINUITY.md',
          'scripts/build.py','scripts/research.py','scripts/preserve.py',
          'automation-templates/research.yml','dist/index.html','dist/archive.json',
          'dist/media.json','dist/RIGHTS.md','dist/feed.xml']
@@ -35,6 +35,15 @@ def check(root):
         require(normalized not in quotes,'Duplicate media quotation');quotes.add(normalized)
         for k in ['source_url','transcript_url','watch_url']:safe_url(q[k])
         require(q.get('timestamp_seconds') is None or (type(q['timestamp_seconds']) is int and q['timestamp_seconds']>=0),'Invalid timestamp')
+    reserve=json.loads((root/'reserve.json').read_text())['entries']
+    reserve_ids=set(ids)
+    for q in reserve:
+        for k in ['id','quote','author','translator','work','locator','verified_date','url']:
+            require(isinstance(q.get(k),str) and q[k].strip(), 'Missing reserve provenance: '+k)
+        require(q['id'] not in reserve_ids,'Duplicate reserve ID');reserve_ids.add(q['id'])
+        normalized=' '.join(q['quote'].casefold().split())
+        require(normalized not in quotes,'Duplicate reserve quotation');quotes.add(normalized)
+        safe_url(q['url'])
     require(json.loads((root/'dist/archive.json').read_text())==data,'Published archive is stale')
     require(json.loads((root/'dist/media.json').read_text())==media,'Published media is stale')
     items=ET.parse(root/'dist/feed.xml').findall('./channel/item')
@@ -42,7 +51,7 @@ def check(root):
     for f in FILES:
         content=(root/f).read_text()
         require(not re.search(r'(?:gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9_-]{32,}|-----BEGIN (?:RSA |OPENSSH )?PRIVATE KEY-----)',content),'Possible secret in export: '+f)
-    return {'text_entries':len(data['teachings']),'media_entries':len(media['teachings']),'feed_entries':len(items)}
+    return {'text_entries':len(data['teachings']),'media_entries':len(media['teachings']),'feed_entries':len(items),'reserve_entries':len(reserve)}
 
 def package(destination):
     result=check(ROOT)
@@ -67,6 +76,7 @@ def restore_test(archive,checksum):
                 out=target/name;out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(z.read(name))
         before={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (target/'dist').iterdir() if p.is_file()}
         check(target)
+        require((target/'scripts/build.py').read_bytes()==(ROOT/'scripts/build.py').read_bytes(),'Packaged build script differs from trusted local builder; inspect before executing')
         subprocess.run([sys.executable,'scripts/build.py'],cwd=target,check=True,capture_output=True)
         after={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (target/'dist').iterdir() if p.is_file()}
         require(before==after,'Restored build differs from packaged public output')
