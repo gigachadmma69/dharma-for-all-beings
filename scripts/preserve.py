@@ -3,7 +3,7 @@ import argparse, hashlib, json, pathlib, re, subprocess, sys, tempfile, zipfile
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-FILES = ['archive.json','media.json','reserve.json','LICENSE','RIGHTS.md','README.md','CONTINUITY.md',
+FILES = ['archive.json','media.json','reserve.json','LICENSE','RIGHTS.md','README.md','CONTINUITY.md','CONTRIBUTING.md',
          'scripts/build.py','scripts/research.py','scripts/preserve.py',
          'automation-templates/research.yml','dist/index.html','dist/archive.json',
          'dist/media.json','dist/RIGHTS.md','dist/feed.xml']

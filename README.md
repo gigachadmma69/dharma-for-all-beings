@@ -4,7 +4,7 @@ A portable Buddhist teaching library: exact wording, translator credits, context
 
 ## What works
 
-- 32 independently source-checked short passages, with permanent local anchors and a downloadable JSON archive.
+- 43 independently source-checked text passages, plus 2 transcript excerpts and 16 additional verified reserve passages (28 September 2026), with permanent local anchors and a downloadable JSON archive.
 - A compassion-first editorial reading order, not an objective measure of spiritual benefit.
 - A prepared daily GitHub Actions source-check workflow (not active: current GitHub authorization lacks workflow permission). It reads existing sources, checks exact text and gathers same-source links as research candidates. When installed at .github/workflows/research.yml, it produces a report and a portable website artifact. The template is in automation-templates/research.yml.
 - A separate authorized Codex task curates new passages, manages native X scheduling, and republishes the library. It needs the user's computer and account access.
@@ -52,3 +52,7 @@ Create a portable release with `python3 scripts/preserve.py package /absolute/pa
 Operational recovery: stop only the failing publishing channel, preserve its last confirmed result and uncertain attempts, continue healthy archive channels, repair and test before resuming. Record failure, cause, fix and a regression check in a private incident log. Never treat missing activity as proof of death. These are maintained procedures, not a deployed independent failover service.
 
 The preservation bundle now also includes reserve.json: verified excerpts not yet included in the public reading sequence. It deliberately excludes account scheduling data. Restore tests refuse to execute a packaged build script unless it matches the trusted local builder, even when the archive checksum matches.
+
+## Care and corrections
+
+See CONTRIBUTING.md for source review, correction and withdrawal procedures. Preserving a mistaken quotation indefinitely is not the mission. Corrections should travel with future editions, while prior releases remain clearly dated historical snapshots.
