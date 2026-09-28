@@ -1,0 +1,49 @@
+{
+  "teachings": [
+    {
+      "id": "james-low-staying-open",
+      "speaker": "James Low",
+      "title": "Staying open in a shut down world",
+      "date": "2020-05-22",
+      "quote": "The direct one is to start from where we actually are. And the indirect paths start from where we think we are.",
+      "credit": "Spoken in English. Transcript credited to Lea Pabst.",
+      "source_url": "https://simplybeing.co.uk/video/staying-open-in-a-shut-down-world-zoom-may-2020/",
+      "transcript_url": "https://simplybeing.co.uk/wp-content/uploads/2020/07/538-2020-May-Zoom-Staying-open-in-a-shut-down-world-LPabst-Webready.pdf",
+      "watch_url": "https://simplybeing.co.uk/video/staying-open-in-a-shut-down-world-zoom-may-2020/",
+      "youtube_id": null,
+      "timestamp_seconds": null,
+      "locator": "Opening excerpt reproduced on the official teaching page",
+      "verification": "Exact text verified against official teaching-page excerpt. Full transcript linked by archive. No audio-level or timestamp verification claimed.",
+      "context": "A teaching contrasting direct and indirect approaches to practice. The official page includes the recording and transcript.",
+      "verified_date": "2026-09-28"
+    },
+    {
+      "id": "lama-lena-working-with-thoughts",
+      "speaker": "Lama Lena",
+      "title": "Working with Thoughts — Part 1",
+      "date": "2022-02-19",
+      "quote": "It is extremely important that you not take my word for this.\nGo look.",
+      "credit": "Spoken in English. Official archive transcript; transcriber uncredited.",
+      "source_url": "https://lamalenateachings.com/working-with-thoughts/",
+      "transcript_url": "https://lamalenateachings.com/working-with-thoughts/",
+      "watch_url": "https://www.youtube.com/watch?v=S_cOY2amvDI&t=1136s",
+      "youtube_id": "S_cOY2amvDI",
+      "timestamp_seconds": 1136,
+      "locator": "Part 1 transcript, section beginning 18:56, following the question about substance and duration of thoughts",
+      "verification": "Exact excerpt checked against official transcript. Video ID matched to Part 1 embed on official page. Timestamp denotes transcript section start, not exact sentence onset; audio not independently checked.",
+      "context": "An invitation to examine thoughts directly. The linked section begins at 18:56; the quoted words occur within it.",
+      "verified_date": "2026-09-28"
+    }
+  ],
+  "related_recordings": [
+    {
+      "speaker": "Erik Pema Kunsang",
+      "title": "Remembering Tulku Urgyen’s pointing-out instructions",
+      "watch_url": "https://www.youtube.com/watch?v=s23Fhsak88U",
+      "youtube_id": "s23Fhsak88U",
+      "credit": "Interview on Daniel Aitken’s channel. Erik Pema Kunsang recounts his experience with Tulku Urgyen.",
+      "context": "A recollection by his translator, not a recording of Tulku Urgyen speaking. No transcript excerpt or timestamp is claimed.",
+      "verified_date": "2026-09-28"
+    }
+  ]
+}
