@@ -34,3 +34,9 @@ For operation without the owner's computer, a custodian must configure and maint
 GitHub scheduled workflows can be delayed, and public-repository schedules are disabled after 60 days without activity. Artifact retention is limited. This is a research aid and reproducible archive, not a perpetuity guarantee. See https://docs.github.com/en/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows .
 
 A succession plan requires a real person and ongoing account/service arrangements; none is established by this repository. Do not impersonate the owner or write personal updates on their behalf. The mission is attributed teachings that invite wisdom and compassion, with no promised spiritual outcome.
+
+## Multimedia and distribution
+
+The library includes two excerpts verified against official James Low and Lama Lena transcript sources, links to their full teachings, and an Erik Pema Kunsang interview about Tulku Urgyen (explicitly a recollection, not Tulku Urgyen speaking). See media.json for exact verification levels. Transcript section timestamps are not claimed to be audio-verified sentence timestamps.
+
+The portable RSS feed is dist/feed.xml. Readers can subscribe without X. It updates when the library is rebuilt and republished, not independently every fifteen minutes. Website and repository continuity do not depend on X access; the updating process still depends on local Codex. No account-replacement or ban-evasion automation is configured. If X is suspended, stop X writes, report the state, and maintain the library/feed. Use an appeal or an independently authorized compliant distribution channel; do not create replacement accounts to circumvent enforcement.
