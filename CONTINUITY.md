@@ -47,3 +47,7 @@ A successor should first preserve the library, then decide which distribution ch
 | Verified supply insufficient | Report the uncovered slots; preserve the archive | New suitable material is independently reviewed; never invent or shorten the reuse interval silently |
 
 Disruptions should leave a recorded lesson: evidence, cause where known, repair, and a prevention check. Redundancy reduces fragility; learning from real failures is the part that can make the project improve under stress.
+
+## Live reading redundancy — 28 September 2026
+
+A second static library is live at https://gigachadmma69.github.io/dharma-for-all-beings/ with an independent RSS endpoint at feed.xml. GitHub Pages serves main:/docs. After a public library update, run scripts/build.py, scripts/preserve.py check and scripts/pages.py; commit dist and docs, push, then verify the Pages build. The mirror uses its own reading links and preserves feed entry identifiers. It is independent of the Sites host, but still belongs to the same owner and does not independently research or publish to X.
