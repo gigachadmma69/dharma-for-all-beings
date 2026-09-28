@@ -2,33 +2,6 @@
   "description": "Verified source excerpts held for future curation; not a statement that these are published or scheduled. Operational account data excluded.",
   "entries": [
     {
-      "author": "Padmasambhava (Dorje Lingpa treasure attribution)",
-      "quote": "The most vital point is therefore to sustain your practice undistractedly from this very moment.",
-      "work": "The Final Words of Padmasambhava / Sacred Refined Essence Instruction; included in Dakini Teachings",
-      "translator": "Erik Pema Kunsang",
-      "url": "https://levekunst.com/the-final-words-of-padmasambhava/",
-      "locator": "Standalone paragraph beginning “The most vital point”, following the paragraph defining the innate deity",
-      "verified_date": "2026-09-28",
-      "context_note": "Instruction to Yeshe Tsogyal on practice, death and the bardo; traditional treasure attribution to Padmasambhava, revealed by Dorje Lingpa. Article credited to the translator; colophon explicitly credits his translation. No independent historical-transcript claim.",
-      "word_count": 16,
-      "source_use_note": "One short 16-word excerpt recorded from this work; check cumulative work-level use before further excerpts.",
-      "id": "reserve-44c19b635eece6c3"
-    },
-    {
-      "author": "The Buddha (canonical attribution)",
-      "quote": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
-      "work": "Dhammapada",
-      "translator": "F. Max Müller",
-      "edition": "The Sacred Books of the East, Volume X, Part I; Project Gutenberg eBook 2017 transcription",
-      "locator": "Verse 5",
-      "url": "https://www.gutenberg.org/files/2017/2017-h/2017-h.htm",
-      "verified_date": "2026-09-28",
-      "context_note": "Complete numbered verse checked with neighboring verses in the source. Historical translation; retain its wording without modernization. Mix sparingly with the prioritized Tibetan translations rather than publish as a continuous book sequence.",
-      "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
-      "word_count": 19,
-      "id": "reserve-4a1856c4ac52f4f5"
-    },
-    {
       "author": "The Buddha (canonical attribution)",
       "quote": "They who imagine truth in untruth, and see untruth in truth, never arrive at truth, but follow vain desires.",
       "work": "Dhammapada",
@@ -114,20 +87,6 @@
     },
     {
       "author": "The Buddha (canonical attribution)",
-      "quote": "As the bee collects nectar and departs without injuring the flower, or its colour or scent, so let a sage dwell in his village.",
-      "work": "Dhammapada",
-      "translator": "F. Max Müller",
-      "edition": "The Sacred Books of the East, Volume X, Part I; Project Gutenberg eBook 2017 transcription",
-      "locator": "Verse 49",
-      "url": "https://www.gutenberg.org/files/2017/2017-h/2017-h.htm",
-      "verified_date": "2026-09-28",
-      "context_note": "Complete numbered verse checked with neighboring verses in the source. Historical translation; retain its wording without modernization. Mix sparingly with the prioritized Tibetan translations rather than publish as a continuous book sequence.",
-      "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
-      "word_count": 24,
-      "id": "reserve-5d2dc1d7f990ddbd"
-    },
-    {
-      "author": "The Buddha (canonical attribution)",
       "quote": "Like a beautiful flower, full of colour, but without scent, are the fine but fruitless words of him who does not act accordingly.",
       "work": "Dhammapada",
       "translator": "F. Max Müller",
@@ -181,34 +140,6 @@
       "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
       "word_count": 21,
       "id": "reserve-457a1092d69b289b"
-    },
-    {
-      "author": "The Buddha (canonical attribution)",
-      "quote": "As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.",
-      "work": "Dhammapada",
-      "translator": "F. Max Müller",
-      "edition": "The Sacred Books of the East, Volume X, Part I; Project Gutenberg eBook 2017 transcription",
-      "locator": "Verse 81",
-      "url": "https://www.gutenberg.org/files/2017/2017-h/2017-h.htm",
-      "verified_date": "2026-09-28",
-      "context_note": "Complete numbered verse checked with neighboring verses in the source. Historical translation; retain its wording without modernization. Mix sparingly with the prioritized Tibetan translations rather than publish as a continuous book sequence.",
-      "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
-      "word_count": 18,
-      "id": "reserve-2851b4094a5fb755"
-    },
-    {
-      "author": "The Buddha (canonical attribution)",
-      "quote": "Wise people, after they have listened to the laws, become serene, like a deep, smooth, and still lake.",
-      "work": "Dhammapada",
-      "translator": "F. Max Müller",
-      "edition": "The Sacred Books of the East, Volume X, Part I; Project Gutenberg eBook 2017 transcription",
-      "locator": "Verse 82",
-      "url": "https://www.gutenberg.org/files/2017/2017-h/2017-h.htm",
-      "verified_date": "2026-09-28",
-      "context_note": "Complete numbered verse checked with neighboring verses in the source. Historical translation; retain its wording without modernization. Mix sparingly with the prioritized Tibetan translations rather than publish as a continuous book sequence.",
-      "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
-      "word_count": 18,
-      "id": "reserve-78107031efb2d22b"
     },
     {
       "author": "The Buddha (canonical attribution)",
@@ -293,45 +224,6 @@
       "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
       "word_count": 23,
       "id": "reserve-61db58ea890710b7"
-    },
-    {
-      "author": "Gampopa (as presented by Erik Pema Kunsang)",
-      "quote": "Don’t reject compassion, since it is the basis for helping others.",
-      "work": "The Eleven Instructions of Gampopa",
-      "translator": "Erik Pema Kunsang (English presentation; no separate translation credit on page)",
-      "url": "https://levekunst.com/the-eleven-instructions-of-gampopa/",
-      "locator": "First bullet of the eleven instructions",
-      "context_note": "Article explicitly attributes the list to Gampopa. This compassion instruction is self-contained. Article author is Erik Pema Kunsang; credit the presentation rather than invent a separate edition or translation colophon.",
-      "verified_date": "2026-09-28",
-      "word_count": 11,
-      "source_use_note": "One brief excerpt from this work recorded in this batch; retain cumulative work-level use tracking.",
-      "id": "reserve-ce744bed9da7d025"
-    },
-    {
-      "author": "Tsoknyi Rinpoche",
-      "quote": "Someone who has realized emptiness is naturally compassionate, and doesn’t close off and become concerned with only him or herself.",
-      "work": "Carefree Dignity",
-      "translator": "Erik Pema Kunsang and Marcia Binder Schmidt; edited by Kerry Moran",
-      "url": "https://levekunst.com/carefree-dignity/",
-      "locator": "Paragraph beginning “Even though he was not quite up to doing so”; sentence beginning “Someone who has realized emptiness”",
-      "context_note": "Tsoknyi Rinpoche speaking about the example of his father Tulku Urgyen. Actual speaker is Tsoknyi, not Tulku Urgyen or the article byline. Colophon credits translators, editor, and 1998 copyright.",
-      "verified_date": "2026-09-28",
-      "word_count": 20,
-      "source_use_note": "One brief excerpt from this work recorded in this batch; retain cumulative work-level use tracking.",
-      "id": "reserve-a2e5362aeacb62cf"
-    },
-    {
-      "author": "Nyoshul Khen Rinpoche",
-      "quote": "Let unmoved mind look into itself.",
-      "work": "The Perfect Mirror (poem in Erik Pema Kunsang’s article)",
-      "translator": "Erik Pema Kunsang",
-      "url": "https://levekunst.com/the-perfect-mirror/",
-      "locator": "Revised translation of the poem; final line of stanza beginning “See here, friends of the unchanging!”",
-      "context_note": "Kunsang explicitly introduces this as his new translation of Nyoshul Khenpo’s poem. This line is from the poem, not the translator’s surrounding commentary; nondual presence is the stated context.",
-      "verified_date": "2026-09-28",
-      "word_count": 6,
-      "source_use_note": "One brief excerpt from this work recorded in this batch; retain cumulative work-level use tracking.",
-      "id": "reserve-389c764b352e008f"
     }
   ]
 }
