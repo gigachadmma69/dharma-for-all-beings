@@ -40,3 +40,13 @@ A succession plan requires a real person and ongoing account/service arrangement
 The library includes two excerpts verified against official James Low and Lama Lena transcript sources, links to their full teachings, and an Erik Pema Kunsang interview about Tulku Urgyen (explicitly a recollection, not Tulku Urgyen speaking). See media.json for exact verification levels. Transcript section timestamps are not claimed to be audio-verified sentence timestamps.
 
 The portable RSS feed is dist/feed.xml. Readers can subscribe without X. It updates when the library is rebuilt and republished, not independently every fifteen minutes. Website and repository continuity do not depend on X access; the updating process still depends on local Codex. No account-replacement or ban-evasion automation is configured. If X is suspended, stop X writes, report the state, and maintain the library/feed. Use an appeal or an independently authorized compliant distribution channel; do not create replacement accounts to circumvent enforcement.
+
+## Preservation checks and recovery drills
+
+Run `python3 scripts/preserve.py check` before publishing. It rejects missing attribution, duplicate records, invalid source links, stale public data and missing RSS entries, and scans the explicit release file set for common secret patterns. It does not certify doctrinal accuracy, permission to reuse a work, or absence of every possible secret.
+
+Run `python3 scripts/preserve.py fault-test` to verify that deliberate defects are caught. The drill modifies temporary copies only.
+
+Create a portable release with `python3 scripts/preserve.py package /absolute/path/library.zip`, then run `python3 scripts/preserve.py restore-test /absolute/path/library.zip --checksum /absolute/path/library.zip.sha256`. Restoration rebuilds in a fresh temporary directory and checks identical public output without network access. Only the explicit public file allowlist is packaged. Keep the checksum separately: it detects corruption, not malicious replacement of both archive and checksum.
+
+Operational recovery: stop only the failing publishing channel, preserve its last confirmed result and uncertain attempts, continue healthy archive channels, repair and test before resuming. Record failure, cause, fix and a regression check in a private incident log. Never treat missing activity as proof of death. These are maintained procedures, not a deployed independent failover service.
