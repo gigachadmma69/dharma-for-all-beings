@@ -5,9 +5,20 @@ NOW=dt.datetime(2026,10,4,12,tzinfo=dt.timezone.utc)
 def entry(i='one',h=12):
  return dict(id=i,quote='A verified excerpt.',author=i,work='Work',translator='Translator',source_url='https://example.org/source',locator='p1',context='Context checked',rights_review='Short excerpt reviewed',reviewed_at='2026-10-03',text='A verified excerpt. https://example.org/source',due_at=f'2026-10-04T{h:02}:00:00Z',tradition='Zen',approved=True)
 class Checks(unittest.TestCase):
- def setUp(self):self.tmp=tempfile.TemporaryDirectory();self.db=database(Path(self.tmp.name)/'state.sqlite')
+ def setUp(self):self.tmp=tempfile.TemporaryDirectory();self.db=database(Path(self.tmp.name)/'state.sqlite',initialize=True)
  def tearDown(self):self.db.close();self.tmp.cleanup()
  def run_tick(self,q,send,now=NOW):return tick(self.db,q,now,send,True,'2026-10-04T00:00:00Z')
+ def test_missing_history_rejected(self):
+  with self.assertRaises(Exception):database(Path(self.tmp.name)/'missing.sqlite')
+  self.assertFalse((Path(self.tmp.name)/'missing.sqlite').exists())
+ def test_existing_history_not_overwritten(self):
+  with self.assertRaises(FileExistsError):database(Path(self.tmp.name)/'state.sqlite',initialize=True)
+ def test_empty_history_rejected(self):
+  p=Path(self.tmp.name)/'empty.sqlite';p.touch()
+  with self.assertRaises(ValueError):database(p)
+ def test_restart_preserves_dedup(self):
+  q=[entry()];self.run_tick(q,lambda _: '123');self.db.close();self.db=database(Path(self.tmp.name)/'state.sqlite')
+  self.assertEqual(self.run_tick(q,lambda _:self.fail())['status'],'no_current_slot')
  def test_disabled(self):self.assertEqual(tick(self.db,[entry()],NOW,lambda _:self.fail())['status'],'disabled')
  def test_success_once(self):
   calls=[];s=lambda text:(calls.append(text) or '123');self.assertEqual(self.run_tick([entry()],s)['status'],'published');self.run_tick([entry()],s);self.assertEqual(len(calls),1)

@@ -32,11 +32,22 @@ def validate(queue):
         seen.add(q['id']);slots.add(t);last=q
     return queue
 
-def database(path):
-    db=sqlite3.connect(path,timeout=20)
-    db.execute('PRAGMA journal_mode=WAL'); db.execute('PRAGMA synchronous=FULL')
-    db.execute('CREATE TABLE IF NOT EXISTS events (id TEXT PRIMARY KEY, digest TEXT NOT NULL, state TEXT NOT NULL, attempted_at TEXT NOT NULL, post_id TEXT)')
-    db.commit();return db
+def database(path, initialize=False):
+    path=Path(path).resolve()
+    if initialize:
+        # Exclusive creation prevents overwriting a real publication history.
+        fd=os.open(path,os.O_CREAT|os.O_EXCL|os.O_WRONLY,0o600);os.close(fd)
+        db=sqlite3.connect(path,timeout=20)
+        db.execute('CREATE TABLE events (id TEXT PRIMARY KEY, digest TEXT NOT NULL, state TEXT NOT NULL, attempted_at TEXT NOT NULL, post_id TEXT)')
+        db.execute('PRAGMA user_version=1');db.commit()
+    else:
+        # mode=rw refuses to silently recreate a missing persistent volume.
+        db=sqlite3.connect(path.as_uri()+'?mode=rw',uri=True,timeout=20)
+        if db.execute('PRAGMA quick_check').fetchone()!=('ok',) or db.execute('PRAGMA user_version').fetchone()!=(1,):
+            db.close();raise ValueError('Publication history unavailable; reconcile before recovery')
+        db.execute('SELECT id,digest,state,attempted_at,post_id FROM events LIMIT 0')
+    db.execute('PRAGMA journal_mode=WAL');db.execute('PRAGMA synchronous=FULL')
+    return db
 
 def tick(db,queue,now,send,armed=False,cutover=None):
     validate(queue)
@@ -74,8 +85,9 @@ def send_x(text):
     return payload['data']['id']
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--queue',required=True);p.add_argument('--db',required=True);p.add_argument('--send',action='store_true');args=p.parse_args()
-    q=json.loads(Path(args.queue).read_text());db=database(args.db)
+    p=argparse.ArgumentParser();p.add_argument('--queue',required=True);p.add_argument('--db',required=True);p.add_argument('--send',action='store_true');p.add_argument('--initialize-state',action='store_true');args=p.parse_args()
+    if args.initialize_state and args.send:raise SystemExit('State initialization cannot send posts.')
+    q=json.loads(Path(args.queue).read_text());db=database(args.db,initialize=args.initialize_state)
     if args.send and not os.environ.get('X_USER_ACCESS_TOKEN'):raise SystemExit('No user token configured; no attempt made.')
     result=tick(db,q,dt.datetime.now(UTC),send_x,armed=args.send and os.environ.get('PUBLISHER_ENABLED')=='yes',cutover=os.environ.get('PUBLISHER_CUTOVER_UTC'))
     print(json.dumps(result))

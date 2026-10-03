@@ -18,6 +18,8 @@ A durable SQLite claim is committed before sending. If a request times out or re
 
 `python3 -m unittest discover -s publisher -v`
 
+Initialize a new deployment only after reconciling prior/native history: add `--initialize-state` to a non-sending inspection. This exclusively creates a new database and refuses to overwrite one. Never use it as automatic recovery after disk loss. Normal runs reject missing, empty or invalid databases.
+
 Default inspection: `python3 publisher/worker.py --queue /secure/approved.json --db /persistent/events.sqlite`
 
 Only after completing the deployment requirements, supply `X_USER_ACCESS_TOKEN`, `PUBLISHER_ENABLED=yes`, `PUBLISHER_CUTOVER_UTC`, and `--send` through the host’s secret manager. Never put tokens on command lines, in logs or in Git. Schedule one invocation each UTC hour, using one shared persistent database. A disabled/empty publisher is not healthy coverage; monitor the next approved slot and last confirmed post externally.
