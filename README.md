@@ -4,7 +4,7 @@ A portable Buddhist teaching library: exact wording, translator credits, context
 
 ## What works
 
-- 43 independently source-checked text passages, plus 2 transcript excerpts and 16 additional verified reserve passages (28 September 2026), with permanent local anchors and a downloadable JSON archive.
+- 43 independently source-checked text passages, plus 2 transcript excerpts and 19 additional verified reserve passages (3 October 2026), with permanent local anchors and a downloadable JSON archive.
 - A compassion-first editorial reading order, not an objective measure of spiritual benefit.
 - A prepared daily GitHub Actions source-check workflow (not active: current GitHub authorization lacks workflow permission). It reads existing sources, checks exact text and gathers same-source links as research candidates. When installed at .github/workflows/research.yml, it produces a report and a portable website artifact. The template is in automation-templates/research.yml.
 - A separate authorized Codex task curates new passages, manages native X scheduling, and republishes the library. It needs the user's computer and account access.

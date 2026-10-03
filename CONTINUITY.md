@@ -15,7 +15,7 @@ This project exists to preserve accurately attributed Buddhist teachings and mak
 
 Prefer new, verified selections. An old quotation may return only after at least 365 days, after its source and reuse basis have been checked again. Keep each publication as a separate event; never erase publication history. Avoid repeats already in the pending queue and enforce author/work spacing. Do not cycle a tiny library at high frequency. If eligible material runs out, report the gap; do not invent content or silently shorten the interval.
 
-At 96 posts daily, a full year without repeats needs 35,040 eligible quotations. As of 28 September 2026, the repository contains 61 distinct verified excerpts: 43 in the text reading sequence, 2 linked to recordings, and 16 in the additional reserve. These are archive counts, not remaining scheduled posts. A 365-day interval is a policy, not proof that a year of material or autonomous operation exists.
+At 96 posts daily, a full year without repeats needs 35,040 eligible quotations. As of 3 October 2026, the repository contains 64 distinct verified excerpts: 43 in the text reading sequence, 2 linked to recordings, and 19 in the additional reserve. These are archive counts, not remaining scheduled posts. A 365-day interval is a policy, not proof that a year of material or autonomous operation exists.
 
 ## What is established / what remains
 

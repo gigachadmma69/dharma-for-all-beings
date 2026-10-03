@@ -224,6 +224,48 @@
       "rights": "Public domain in the USA per Project Gutenberg catalog; not a claim about every jurisdiction.",
       "word_count": 23,
       "id": "reserve-61db58ea890710b7"
+    },
+    {
+      "author": "Padmasambhava (quoted by Dudjom Rinpoche)",
+      "quote": "The truth of everything is the dharmakāya, which goes beyond the intellectual mind.",
+      "work": "Richö — Mountain Retreat Teachings",
+      "translator": "Rigpa Translations",
+      "edition": "Rigpa Translations 2004; revised with permission, Lotsawa House 2026",
+      "locator": "Section 2, View; paragraph beginning “This rigpa, the indivisibility”",
+      "url": "https://www.lotsawahouse.org/tibetan-masters/dudjom-rinpoche/richo-mountain-retreat-teachings",
+      "verified_date": "2026-10-03",
+      "context_note": "Dudjom Rinpoche explicitly attributes this sentence to Guru Padmasambhava. It is a quotation within his exposition of appearance and emptiness, not independently verified against an earlier Padmasambhava text.",
+      "rights": "CC BY-NC 4.0",
+      "word_count": 13,
+      "id": "reserve-129c21ac0a9eced7"
+    },
+    {
+      "author": "Candrakīrti",
+      "quote": "Conventional truth is the method;\nAnd the ultimate is its outcome.\nNot knowing how the two truths differ,\nYour thoughts will wander astray.",
+      "work": "Madhyamakāvatāra",
+      "translator": "Adam Pearcey",
+      "edition": "Translation 2004; revised 2025; version 1.0–20250618",
+      "locator": "Chapter 6, verse 80, complete verse",
+      "url": "https://www.lotsawahouse.org/indian-masters/chandrakirti/madhyamakavatara-quotations",
+      "verified_date": "2026-10-03",
+      "context_note": "Complete verse on distinguishing conventional and ultimate truth; translator’s primary bilingual selection, not an unattributed quotation aggregator.",
+      "rights": "CC BY-NC 4.0",
+      "word_count": 23,
+      "id": "reserve-146c1dde5d530869"
+    },
+    {
+      "author": "Uttamā (canonical attribution)",
+      "quote": "On the eighth, I stretched out my legs, having burst the mass of darkness.",
+      "work": "Therīgāthā 3.2",
+      "translator": "Thanissaro Bhikkhu",
+      "edition": "Translation ©1997; Access to Insight BCBS edition, revised 4 August 2010",
+      "locator": "Verses 42–44; final sentence",
+      "url": "https://accesstoinsight.org/tipitaka/kn/thig/thig.03.02.than.html",
+      "verified_date": "2026-10-03",
+      "context_note": "Nun Uttamā describes attainment after instruction from a trustworthy nun and seven days of practice. “The eighth” refers to the eighth day, not an instantaneous guarantee.",
+      "rights": "CC BY-NC 4.0",
+      "word_count": 14,
+      "id": "reserve-969d7c1ac26314a0"
     }
   ]
 }
