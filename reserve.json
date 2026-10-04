@@ -354,6 +354,36 @@
       "verified_date": "2026-10-04",
       "word_count": 9,
       "id": "reserve-247a272dd55c23f4"
+    },
+    {
+      "author": "Daehaeng Kun Sunim",
+      "quote": "All things constantly change every instant, so there is nothing to cling to.",
+      "work": "Teachings of Daehaeng Kun Sunim",
+      "translator": "Uncredited on source page",
+      "url": "https://hanmaumseoncenter.org/daehaeng-kun-sunim/",
+      "locator": "Introduction, explicitly quoted passage beginning Believe in your foundation",
+      "edition": "Official Hanmaum Seon Center web text, accessed2026-10-04",
+      "context_note": "Within directly quoted instruction to entrust experience to the inherent foundation and observe. Surrounding subsequent sections are summaries; excerpt is from explicit quotation only.",
+      "tradition": "Korean Seon",
+      "rights": "Brief attributed13-word excerpt; no open license asserted; no other excerpt from this page",
+      "verified_date": "2026-10-04",
+      "word_count": 13,
+      "id": "reserve-f97c58f4bf181c10"
+    },
+    {
+      "author": "Dudjom Lingpa",
+      "quote": "Mind is primordially empty, naturally luminous and unsullied.",
+      "work": "Instructions for Chögyal",
+      "translator": "Laura Swan",
+      "url": "https://www.lotsawahouse.org/tibetan-masters/dudjom-lingpa/instructions-for-chogyal",
+      "locator": "Line beginning Mind is primordially empty, in final recognition instructions",
+      "edition": "2024 translation; version1.0–20240208",
+      "context_note": "Dzogchen description of mind nature, followed by recognition as criterion of realization; not assertion that merely reading is realization.",
+      "tradition": "Tibetan Dzogchen",
+      "rights": "CC BY-NC4.0; noncommercial attributed excerpt",
+      "verified_date": "2026-10-04",
+      "word_count": 8,
+      "id": "reserve-8d82e9b5e893deba"
     }
   ]
 }
