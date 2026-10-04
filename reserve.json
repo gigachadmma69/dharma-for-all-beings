@@ -309,6 +309,36 @@
       "tradition": "Early Buddhism / Therīgāthā",
       "word_count": 19,
       "id": "reserve-565dc5a43e254734"
+    },
+    {
+      "author": "Jamgön Kongtrul Lodrö Tayé",
+      "quote": "Without grasping at compassion, realize its emptiness.\nCompassion, the spontaneous energy of emptiness, will emerge.",
+      "work": "Advice Given to Lhawang Tashi",
+      "translator": "Joseph Faria",
+      "url": "https://www.lotsawahouse.org/tibetan-masters/jamgon-kongtrul/advice-to-lhawang-tashi",
+      "locator": "Lines on relative bodhicitta, beginning Without grasping at compassion",
+      "edition": "2015 translation; version 1.4–20260514",
+      "context_note": "Explains compassion and emptiness together after distinguishing ultimate and relative bodhicitta. Not an instruction to withhold practical help.",
+      "tradition": "Tibetan Buddhism",
+      "rights": "CC BY-NC 4.0; attributed noncommercial excerpt",
+      "verified_date": "2026-10-04",
+      "word_count": 15,
+      "id": "reserve-194b1f640b7a7cce"
+    },
+    {
+      "author": "Nāgārjuna",
+      "quote": "From phenomena which are exclusively empty,\nThere arise only empty phenomena.",
+      "work": "Verses on the Heart of Dependent Origination",
+      "translator": "Adam Pearcey",
+      "url": "https://www.lotsawahouse.org/indian-masters/nagarjuna/heart-dependent-origination",
+      "locator": "Verse 4, third and fourth lines",
+      "edition": "2008 translation; version 1.1–20250220",
+      "context_note": "Dependent arising of phenomena empty of inherent existence; verse 6 explicitly rejects nihilism.",
+      "tradition": "Indian Madhyamaka",
+      "rights": "CC BY-NC 4.0; attributed noncommercial excerpt",
+      "verified_date": "2026-10-04",
+      "word_count": 11,
+      "id": "reserve-2f7eb5201270b6ea"
     }
   ]
 }
