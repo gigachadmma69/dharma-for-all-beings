@@ -1,7 +1,7 @@
 {
   "title": "For All Beings",
   "version": 1,
-  "updated": "2026-09-28",
+  "updated": "2026-10-07",
   "ordering": "Editorial: compassion and accessible practice first, then more contextual teachings. Not an objective ranking of spiritual efficacy.",
   "teachings": [
     {
@@ -537,6 +537,32 @@
       "rights": "CC BY-NC 4.0",
       "id": "teaching-d1288a08526d",
       "order": 43
+    },
+    {
+      "author": "Avalokiteśvara (speaker in the sūtra)",
+      "quote": "Form is empty. Emptiness is form. Emptiness is not other than form, and form is also not other than emptiness.",
+      "work": "The Heart of the Perfection of Wisdom, the Blessed Mother (Toh 21)",
+      "locator": "Section 1.6; Avalokiteśvara’s answer to Śāriputra",
+      "translator": "Dharmachakra Translation Committee; translation produced by Catherine Dalton and Andreas Doctor",
+      "url": "https://84000.co/translation/toh21",
+      "context_note": "Avalokiteśvara explains the five aggregates’ lack of intrinsic nature in answer to Śāriputra’s question about practicing the perfection of wisdom. Actual speaker is Avalokiteśvara, not the Buddha.",
+      "verified_date": "2026-10-07",
+      "rights": "CC BY-NC-ND 4.0; unchanged attributed excerpt for noncommercial use. Software remains separately MIT-licensed.",
+      "id": "teaching-toh21-avalokitesvara-1-6",
+      "order": 44
+    },
+    {
+      "author": "Sela (canonical attribution)",
+      "quote": "This doll isn't self-made, nor is this misery made by another. In dependence on a cause it comes into play. With the dissolution of the cause it ceases.",
+      "work": "Sela Sutta (SN 5.9)",
+      "locator": "Sela’s reply to Māra, verse after “she replied to him in verses”",
+      "translator": "Thanissaro Bhikkhu",
+      "url": "https://www.accesstoinsight.org/tipitaka/sn/sn05/sn05.009.than.html",
+      "context_note": "After recognizing Māra’s challenge about who made the “doll,” the nun Sela answers that the aggregates arise dependent on causes and cease when those causes dissolve. These are Sela’s words, not Māra’s.",
+      "verified_date": "2026-10-07",
+      "rights": "CC BY-NC 4.0; brief unchanged attributed excerpt, no more than 28 words from this work.",
+      "id": "teaching-sela-sn5-9",
+      "order": 45
     }
   ]
 }
