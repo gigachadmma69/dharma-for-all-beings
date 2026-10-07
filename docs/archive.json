@@ -1,6 +1,6 @@
 {
   "title": "For All Beings",
-  "version": 1,
+  "version": 3,
   "updated": "2026-10-07",
   "ordering": "Editorial: compassion and accessible practice first, then more contextual teachings. Not an objective ranking of spiritual efficacy.",
   "teachings": [
@@ -563,6 +563,32 @@
       "rights": "CC BY-NC 4.0; brief unchanged attributed excerpt, no more than 28 words from this work.",
       "id": "teaching-sela-sn5-9",
       "order": 45
+    },
+    {
+      "author": "Ārya Nāgārjuna",
+      "quote": "In this, there is not a thing to be removed,\nNor the slightest thing to be added.\nIt is looking perfectly into reality itself,\nAnd when reality is seen, complete liberation.",
+      "work": "The Heart of Dependent Origination, verse 7",
+      "locator": "Verse 7, four lines; Derge Tengyur Toḥ 1135 vol.96 146b.2–7",
+      "translator": "Adam Pearcey",
+      "url": "https://www.lotsawahouse.org/indian-masters/nagarjuna/heart-dependent-origination",
+      "context_note": "The verse describes seeing reality itself, not a thing to add or remove; retained as a single verse.",
+      "verified_date": "2026-10-07",
+      "rights": "CC BY-NC 4.0; brief attributed noncommercial excerpt. Translation wording retained unchanged.",
+      "id": "teaching-nagarjuna-heart-dependent-origination-v7",
+      "order": 45
+    },
+    {
+      "author": "Zen Master Dae Kwang",
+      "quote": "It was not to solve some intellectual puzzle, or even to take away his own suffering. Rather, it was for all beings.",
+      "work": "Why does the Buddha have big ears?",
+      "locator": "Paragraph 5, final two sentences",
+      "translator": "No translator credited; original English teaching",
+      "url": "https://kwanumzen.org/teaching-library/1992/02/01/why-does-the-buddha-have-big-ears",
+      "context_note": "Dae Kwang explains the Buddha’s search as directed toward the welfare of all beings rather than solving an intellectual puzzle or ending only his own suffering.",
+      "verified_date": "2026-10-07",
+      "rights": "Brief attributed excerpt from the official Kwan Um School of Zen teaching archive; no separate open-license claim.",
+      "id": "teaching-dae-kwang-why-big-ears-for-all-beings",
+      "order": 46
     }
   ]
 }
