@@ -1,6 +1,6 @@
 {
   "title": "For All Beings",
-  "version": 3,
+  "version": 5,
   "updated": "2026-10-07",
   "ordering": "Editorial: compassion and accessible practice first, then more contextual teachings. Not an objective ranking of spiritual efficacy.",
   "teachings": [
@@ -589,6 +589,45 @@
       "rights": "Brief attributed excerpt from the official Kwan Um School of Zen teaching archive; no separate open-license claim.",
       "id": "teaching-dae-kwang-why-big-ears-for-all-beings",
       "order": 46
+    },
+    {
+      "author": "Somā (nun speaking to Māra)",
+      "quote": "What difference does womanhood make\nwhen the mind is serene,\nand knowledge is present\nas you rightly discern the Dhamma.",
+      "work": "With Somā (Saṃyutta Nikāya 5.2), verse 4",
+      "locator": "SN 5.2, verse 4; Somā replies to Māra.",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://suttacentral.net/sn5.2/en/sujato",
+      "context_note": "Somā rejects Māra’s sexist challenge: gender is irrelevant when the mind is serene and one rightly discerns Dhamma.",
+      "verified_date": "2026-10-07",
+      "rights": "SuttaCentral translation released CC0 per SuttaCentral source record.",
+      "id": "teaching-soma-sn5-2-verse4",
+      "order": 47
+    },
+    {
+      "author": "Kathy Park JDPSN",
+      "quote": "Listen to your partners. Listen to your children. Listen to your coworkers you don't like.",
+      "work": "Listen with Intention, Hear with Compassion",
+      "locator": "Final paragraph, sentence urging attention to disliked coworkers.",
+      "translator": "No translator credited; original English teaching",
+      "url": "https://kwanumzen.org/teaching-library/2025/5/2/listen-with-intention-hear-with-compassion",
+      "context_note": "Within a teaching on listening to the world’s suffering, Kathy Park urges compassionate attention even to coworkers one dislikes.",
+      "verified_date": "2026-10-07",
+      "rights": "Brief attributed excerpt from official source; no open license asserted.",
+      "id": "teaching-kathy-park-listening-compassion",
+      "order": 48
+    },
+    {
+      "author": "Sera Khandro",
+      "quote": "Recite and spread the six syllables to benefit yourself and others.",
+      "work": "Concise Spiritual Advice",
+      "locator": "Lines 65–66; Tibetan edition BDRC W1PD108254 vol. 5, pp. 203–204.",
+      "translator": "Christina Monson (2020)",
+      "url": "https://www.lotsawahouse.org/tibetan-masters/sera-khandro/concise-spiritual-advice",
+      "context_note": "The line completes a short instruction to share the six syllables for the benefit of oneself and others; distinct from the other excerpt from this work already in the archive.",
+      "verified_date": "2026-10-07",
+      "rights": "Lotsawa House CC BY-NC 4.0; brief attributed noncommercial excerpt.",
+      "id": "teaching-sera-khandro-concise-advice-spread-six-syllables",
+      "order": 49
     }
   ]
 }
